@@ -23,9 +23,10 @@ testresources needed for ErForce
 ```bash
 pip install grsim_ros_bridge/ssl-python-clients/
 ```
- Modify src/grsim_ros_bridge/scripts/run_grsim.py setting your path in: 
- ```python
- myCmd = my_home +'/testssl_ws/src/grSim/bin/grSim'
+ Export an eviroment variable setting your ssl_ws home.
+ Example given: if my ws directory is "/home/ricardo/testssl_ws" use: 
+ ```bash
+ export SSL_WS_HOME ='/home/ricardo/testssl_ws'
 ```
 
 
