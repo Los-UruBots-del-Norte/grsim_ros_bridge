@@ -18,12 +18,15 @@ git clone git@github.com:Los-UruBots-del-Norte/grsim_ros_bridge.git
 git clone git@github.com:Los-UruBots-del-Norte/grsim_ros_bridge_msgs.git
 git clone git@github.com:KRSSG/krssg_ssl_msgs.git
 ```
-
-
-First, install ErForce
-1. cd ssl-python-clients
-2. Clone the project
-3. pip install .
+After clonning install:
+testresources needed for ErForce
+```bash
+pip install grsim_ros_bridge/ssl-python-clients/
+```
+ Modify src/grsim_ros_bridge/scripts/run_grsim.py setting your path in: 
+ ```python
+ myCmd = my_home +'/testssl_ws/src/grSim/bin/grSim'
+```
 
 
 ## Running
